@@ -9,7 +9,7 @@
 
 class Monster
 {
-    public $php = "werewolf2";
+    public $php = "werewolf";
     public function pop(){
         return $this->php;
     }
