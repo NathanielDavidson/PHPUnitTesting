@@ -1,6 +1,6 @@
 test:
   override:
-    - vendor/bin/phpunit ./tests --coverage-clover coverage.xml --whitelist ./public
+    - vendor/bin/phpunit ./tests --coverage-clover coverage.xml --whitelist ./public --log-junit tests.xml
   post:
     - bash <(curl -s https://codecov.io/bash)
 notify:
