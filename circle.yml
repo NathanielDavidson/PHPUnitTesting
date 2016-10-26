@@ -1,6 +1,5 @@
 checkout:
   post:
-    - composer install
     - wget https://phar.phpunit.de/phpunit.phar -O ~/phpunit.phar
     - chmod 0755 ~/phpunit.phar
 test:
