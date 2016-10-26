@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
  * Date: 10/25/16
  * Time: 3:25 PM
  */
-include "lib/Monster.php";
+include "public/lib/Monster.php";
 class MonsterTest extends TestCase
 {
     public function testThisMethod()
