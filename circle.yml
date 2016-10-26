@@ -4,7 +4,9 @@ checkout:
     - chmod 0755 ~/phpunit.phar
 test:
   override:
-    - ~/phpunit.phar ./tests
+    - ~/phpunit.phar ./tests --coverage-clover=coverage.xml
+  post:
+    - bash <(curl -s https://codecov.io/bash)
 notify:
   webhooks:
     - url: http://csumbse.net/harbormaster/hook/circleci/
