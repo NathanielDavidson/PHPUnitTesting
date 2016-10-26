@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e815fdc2-8826-41f2-be36-84a607335003" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Monster.php" afterPath="$PROJECT_DIR$/lib/Monster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.arcconfig" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monster.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Monster.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Monster.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -73,6 +71,16 @@
               <folding>
                 <element signature="e#7#100#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".arcconfig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.arcconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +99,7 @@
         <option value="$PROJECT_DIR$/circle.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/Monster.php" />
+        <option value="$PROJECT_DIR$/.arcconfig" />
       </list>
     </option>
   </component>
@@ -251,12 +260,12 @@
       <option name="presentableId" value="Default" />
       <updated>1477434171858</updated>
       <workItem from="1477434174482" duration="2232000" />
-      <workItem from="1477441425880" duration="36000" />
+      <workItem from="1477441425880" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2268000" />
+    <option name="totallyTimeSpent" value="2608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -385,6 +394,14 @@
           <folding>
             <element signature="e#7#100#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.arcconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
